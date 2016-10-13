@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "self porfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify ./src/js/index.js -o ./js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shouldnt/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shouldnt/portfolio/issues"
+  },
+  "homepage": "https://github.com/shouldnt/portfolio#readme",
+  "dependencies": {
+    "vue": "^2.0.2"
+  },
+  "devDependencies": {
+    "aliasify": "^2.0.0",
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
+  },
+
+  "aliasify": {
+    "aliases": {
+      "vue": "vue/dist/vue.js"
+    }
+  }
+}
